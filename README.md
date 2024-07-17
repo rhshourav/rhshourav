@@ -2,7 +2,7 @@
  
  
  
- <img width="1000" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rhshourav&size_weight=0.0005&count_weight=0.3&layout=compact&theme=dracula&border_color=03fca9&langs_count=10">
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rhshourav&size_weight=0.0010&count_weight=0.6&theme=dracula&border_color=03fca9&langs_count=10&card_width=320&layout=pie">
 
  
 [![GitHub Streak](https://streak-stats.demolab.com?user=rhshourav&theme=nordfox&hide_border=true&border_radius=4.6&exclude_days=Fri&card_width=1000)](https://git.io/streak-stats)
