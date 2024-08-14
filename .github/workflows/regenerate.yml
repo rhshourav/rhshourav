@@ -1,0 +1,35 @@
+name: Auto Regenerate README
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"  # Runs every 10 minutes
+
+jobs:
+  regenerate-readme:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Grant permission to push changes to the repository
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Run script
+      run: python generate_readme.py
+
+    - name: Pull the latest changes
+      run: git pull origin main
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "rhshourav"
+        git config --global user.email "rhshourav02@gmail.com"
+        git add README.md
+        git commit -m "Auto-regenerate README"
+        git push
