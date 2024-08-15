@@ -19,6 +19,7 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
+    
     - name: Install dependencies
       run: pip install pytz
       
@@ -29,7 +30,7 @@ jobs:
       run: git pull origin main
 
     - name: Commit and push changes
-    env:
+      env:
         GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
         GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
       run: |
