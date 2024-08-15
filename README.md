@@ -1,3 +1,4 @@
+TryHackMe
 
 <!-- TryHackMe Badge -->
 <div id="thm_badge" style="display: inline-table; width: 220px; margin: 5px; cursor: pointer;" onclick="location.href='https://tryhackme.com/p/deshoha'">
@@ -18,9 +19,11 @@
     </div>
   </div>
 </div>
+
+
 ![](https://komarev.com/ghpvc/?username=rhshourav&color=03fca9)
 
-Last updated: Augh:Augh:1723725385s 12:36:25 PM  
+Last updated: August 15, 2024 at 12:46:41 PM 
  
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rhshourav&size_weight=0.0010&count_weight=0.6&theme=dracula&border_color=03fca9&langs_count=10&card_width=320&layout=pie">
