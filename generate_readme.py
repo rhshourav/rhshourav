@@ -33,7 +33,7 @@ def generate_readme():
   </div>
 </div>
 """
-    content += f"\n\nLast updated: {bd_time.strftime('%Y-%m-%d %H:%M:%S')} BST\n"
+    content += f"\n\nLast updated: {bd_time.strftime('%hh:%hh:%ss %Y-%m-%d ')} \n"
 
     with open("README.md", "w") as readme_file:
         readme_file.write(content)
