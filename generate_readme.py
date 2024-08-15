@@ -29,6 +29,8 @@ def generate_readme():
   </div>
 </div>
 """
+    content += f"\n"
+    content += f"\n"
     content += f"\n\n\n![](https://komarev.com/ghpvc/?username=rhshourav&color=03fca9)"
     content += f"\n\nLast updated: {bd_time.strftime('%B %d, %Y')} at {bd_time.strftime('%I:%M:%S %p')} \n"
     content += f""" \n\n<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rhshourav&size_weight=0.0010&count_weight=0.6&theme=dracula&border_color=03fca9&langs_count=10&card_width=320&layout=pie">"""
