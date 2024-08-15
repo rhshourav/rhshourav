@@ -7,8 +7,8 @@ def generate_readme():
 
     # Get the current time in Bangladesh time
     bd_time = datetime.datetime.now(bd_timezone)
-    
-    content = f"""
+    content = f"TryHackMe\n"
+    content += f"""
 <!-- TryHackMe Badge -->
 <div id="thm_badge" style="display: inline-table; width: 220px; margin: 5px; cursor: pointer;" onclick="location.href='https://tryhackme.com/p/deshoha'">
   <div style="display: flex; align-items: center;">
