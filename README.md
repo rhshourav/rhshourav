@@ -25,7 +25,7 @@ TryHackMe
 
 ![](https://komarev.com/ghpvc/?username=rhshourav&color=03fca9)
 
-Last updated: August 16, 2024 at 02:35:43 PM 
+Last updated: August 16, 2024 at 02:45:56 PM 
  
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rhshourav&size_weight=0.0010&count_weight=0.6&theme=dracula&border_color=03fca9&langs_count=10&card_width=320&layout=pie">
