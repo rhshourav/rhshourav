@@ -10,8 +10,8 @@ def generate_readme():
     content = f""" ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rhshourav&theme=transparent)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rhshourav&theme=transparent) ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=rhshourav&theme=transparent) 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rhshourav&theme=transparent&utcOffset=6) [![GitHub Streak](https://streak-stats.demolab.com?user=rhshourav&theme=transparent&hide_border=true&border_radius=4.6&card_width=320)](https://git.io/streak-stats)"""
-    content += f"TryHackMe"
     content += f"""
+    \n\nTryHackMe
 <!-- TryHackMe Badge -->
 <div id="thm_badge" style="display: inline-table; width: 220px; margin: 5px; cursor: pointer;" onclick="location.href='https://tryhackme.com/p/deshoha'">
   <div style="display: flex; align-items: center;">
