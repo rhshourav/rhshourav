@@ -7,7 +7,8 @@ def generate_readme():
 
     # Get the current time in Bangladesh time
     bd_time = datetime.datetime.now(bd_timezone)
-    content = f""" ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rhshourav&theme=transparent)
+    content = f"""[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&color=FF4C69&center=true&random=true&width=435&lines=Hey%2C+There+it's++Shourav+.+.+.+)]"""
+    content += f""" ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rhshourav&theme=transparent)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rhshourav&theme=transparent) ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=rhshourav&theme=transparent) 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rhshourav&theme=transparent&utcOffset=6) [![GitHub Streak](https://streak-stats.demolab.com?user=rhshourav&theme=transparent&hide_border=true&border_radius=4.6&card_width=320)](https://git.io/streak-stats)"""
     content += f"""![](https://tryhackme-badges.s3.amazonaws.com/deshoha.png) ![](https://komarev.com/ghpvc/?username=rhshourav&color=03fca9)"""
