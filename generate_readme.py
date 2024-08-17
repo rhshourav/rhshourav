@@ -10,32 +10,8 @@ def generate_readme():
     content = f""" ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rhshourav&theme=transparent)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rhshourav&theme=transparent) ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=rhshourav&theme=transparent) 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rhshourav&theme=transparent&utcOffset=6) [![GitHub Streak](https://streak-stats.demolab.com?user=rhshourav&theme=transparent&hide_border=true&border_radius=4.6&card_width=320)](https://git.io/streak-stats)"""
-    content += f"""
-    \n\nTryHackMe
-<!-- TryHackMe Badge -->
-<div id="thm_badge" style="display: inline-table; width: 220px; margin: 5px; cursor: pointer;" onclick="location.href='https://tryhackme.com/p/deshoha'">
-  <div style="display: flex; align-items: center;">
-    <div style="width: 50px; height: 50px; background-image: url('https://tryhackme-images.s3.amazonaws.com/user-avatars/b8c24c4642c6d815383238dcf4b29e2b.png'); background-size: cover; border-radius: 50%; border: 3px solid #88cc14; box-shadow: 0 0px 3px 0px #303030;"></div>
-    <div style="margin-left: 10px; background-color: #343c42; border-radius: 5px; padding: 5px; width: 150px; position: relative;">
-      <span style="color: #ffffff; font-size: 12px; font-weight: bold;">deshoha</span> 
-      <span style="color: #ffffff; font-size: 11px;">[0xA][Wizard]</span>
-      <div style="display: flex; align-items: center; margin-top: 5px;">
-        <img src="https://assets.tryhackme.com/img/badges/trophy.png" alt="trophy" style="height: 16px; opacity: 0.85; margin-right: 5px;" />
-        <span style="color: #ffffff; font-size: 14px; opacity: 0.5;">35070</span>
-        <img src="https://assets.tryhackme.com/img/badges/door.png" alt="door" style="height: 16px; opacity: 0.85; margin: 0 5px;" />
-        <span style="color: #ffffff; font-size: 14px; opacity: 0.5;">70</span>
-        <img src="https://assets.tryhackme.com/img/badges/target.png" alt="target" style="height: 16px; opacity: 0.85; margin-left: 5px;" />
-        <span style="color: #ffffff; font-size: 14px; opacity: 0.5;">16</span>
-      </div>
-      <a href="https://www.tryhackme.com/deshoha" style="color: #fff; font-size: 10px; text-decoration: none; position: absolute; bottom: 5px; right: 5px;">tryhackme.com</a>
-    </div>
-  </div>
-</div>
-"""
-    content += f"\n"
-    content += f"\n"
-    content += f"\n\n\n![](https://komarev.com/ghpvc/?username=rhshourav&color=03fca9)"
-    content += f"\n\nLast updated: {bd_time.strftime('%B %d, %Y')} at {bd_time.strftime('%I:%M:%S %p')} \n"
+    content += f"""![](https://tryhackme-badges.s3.amazonaws.com/deshoha.png) ![](https://komarev.com/ghpvc/?username=rhshourav&color=03fca9)"""
+    content += f"\nLast updated: {bd_time.strftime('%B %d, %Y')} at {bd_time.strftime('%I:%M:%S %p')} \n"
     
     with open("README.md", "w") as readme_file:
         readme_file.write(content)
