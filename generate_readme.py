@@ -34,7 +34,7 @@ def generate_readme():
 {tools}
 
 ## 📊 GitHub Activity
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={PROFILE['username']}&theme=transparent)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username={PROFILE['username']}&theme=transparent)
 
 ## 🏆 TryHackMe
 ![](https://tryhackme-badges.s3.amazonaws.com/deshoha.png)
