@@ -1,7 +1,4 @@
-
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=900&color=FF4C69&center=true&width=700&lines=Hey+There!+I'm+Shourav+aka+rhshourav;Cybersecurity+Professional+|+IT+Officer+|+System+Administrator;Always+Learning+🚀" />
-</p>
+ ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&color=FF4C69&center=true&random=true&width=435&lines=Hey%2C+There+it's++Shourav+.+.+.+)
 
 ## 🧠 About Me
 - Cybersecurity Professional | IT Officer | System Administrator
@@ -38,4 +35,4 @@
 - Discord: 816692017496064002
 - Telegram: @rhshourav
 
-⏱️ Last updated: December 08, 2025 10:17:54 AM
+⏱️ Last updated: December 08, 2025 10:48:30 AM
