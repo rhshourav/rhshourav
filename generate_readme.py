@@ -32,6 +32,7 @@ def generate_readme():
 {tools}
 
 ## 📊 GitHub Activity
+![](https://github-profile-tracker.username.workers.dev)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username={PROFILE['username']}&theme=transparent)
 
 ## 🏆 TryHackMe
