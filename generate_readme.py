@@ -42,8 +42,10 @@ def generate_readme():
 - Discord: {PROFILE['contacts']['Discord']}
 - Telegram: {PROFILE['contacts']['Telegram']}
 
-[![Auto Regenerate README](https://github.com/rhshourav/rhshourav/actions/workflows/regenerate.yml/badge.svg)](https://github.com/rhshourav/rhshourav/actions/workflows/regenerate.yml)
 ⏱️ Last updated: {now.strftime('%B %d, %Y %I:%M:%S %p')}
+
+
+ [![Auto Regenerate README](https://github.com/rhshourav/rhshourav/actions/workflows/regenerate.yml/badge.svg)](https://github.com/rhshourav/rhshourav/actions/workflows/regenerate.yml)
 """
 
     with open("README.md", "w", encoding="utf-8") as f:
