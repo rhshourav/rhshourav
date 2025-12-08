@@ -26,7 +26,7 @@
 - SpecterSQLi
 
 ## 📊 GitHub Activity
-![](https://github-profile-tracker.rhshourav02.workers.dev/)
+![](https://github-profile-tracker.username.workers.dev)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rhshourav&theme=transparent)
 
 ## 🏆 TryHackMe
@@ -36,4 +36,4 @@
 - Discord: 816692017496064002
 - Telegram: @rhshourav
 
-⏱️ Last updated: December 08, 2025 01:48:17 PM
+⏱️ Last updated: December 08, 2025 02:30:44 PM
