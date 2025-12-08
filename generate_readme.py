@@ -12,10 +12,8 @@ def generate_readme():
     platforms = ", ".join(PROFILE["platforms"])
     os_list = " · ".join(PROFILE["operating_systems"])
 
-    content = f"""
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=900&color=FF4C69&center=true&width=700&lines=Hey+There!+I'm+{PROFILE['name']}+aka+{PROFILE['username']};{roles.replace(' ', '+')};Always+Learning+🚀" />
-</p>
+    content = f""" ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&color=FF4C69&center=true&random=true&width=435&lines=Hey%2C+There+it's++Shourav+.+.+.+)"""
+    content += f"""
 
 ## 🧠 About Me
 - {roles}
