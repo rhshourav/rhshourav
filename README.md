@@ -37,3 +37,6 @@
 - Telegram: @rhshourav
 
 ⏱️ Last updated: December 08, 2025 06:42:07 PM
+
+ [![Auto Regenerate README](https://github.com/rhshourav/rhshourav/actions/workflows/regenerate.yml/badge.svg)](https://github.com/rhshourav/rhshourav/actions/workflows/regenerate.yml)
+ 
