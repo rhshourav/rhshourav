@@ -45,7 +45,7 @@ def generate_readme():
 ⏱️ Last updated: {now.strftime('%B %d, %Y %I:%M:%S %p')}
 
 
- [![Auto Regenerate README](https://github.com/rhshourav/rhshourav/actions/workflows/regenerate.yml/badge.svg)](https://github.com/rhshourav/rhshourav/actions/workflows/regenerate.yml)
+ [![Auto Regenerate README](https://github.com/rhshourav/rhshourav/actions/workflows/regenerate.yml/badge.svg)](https://github.com/rhshourav/rhshourav/actions/workflows/regenerate.yml) ![](https://komarev.com/ghpvc/?username=rhshourav&color=03fca9)
 """
 
     with open("README.md", "w", encoding="utf-8") as f:
