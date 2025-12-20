@@ -36,7 +36,7 @@ def generate_readme():
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username={PROFILE['username']}&theme=transparent)
 
 ## 🏆 TryHackMe
-![](https://tryhackme-badges.s3.amazonaws.com/deshoha.png)
+![](https://tryhackme-badges.s3.amazonaws.com/rhshourav.og.png)
 
 ## 🌐 Contact
 - Discord: {PROFILE['contacts']['Discord']}
