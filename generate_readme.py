@@ -11,7 +11,7 @@ def generate_readme():
     tools = "\n".join([f"- {x}" for x in PROFILE["tools"]])
     platforms = ", ".join(PROFILE["platforms"])
     os_list = " · ".join(PROFILE["operating_systems"])
-    tracker_url = f"https://github-profile-tracker.rhshourav02.workers.dev/?v={int(now.timestamp())}"
+    tracker_url = f"https://github-profile-tracker.rhshourav.workers.dev/?v={int(now.timestamp())}"
     content = f""" ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&color=FF4C69&center=true&random=true&width=435&lines=Hey%2C+There+it's++Shourav+.+.+.+)"""
     content += f"""
 
